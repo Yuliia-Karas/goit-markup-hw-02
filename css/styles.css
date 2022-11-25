@@ -21,33 +21,17 @@
 body {
 font-family: 'Roboto', sans-serif;
 color: var(--color-dark);
+background-color: var(--color-white);
 }
 
 /* ============== Components ================= */
-.modal-btn {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1, 19;
-    letter-spacing: 4%;
-    color: var(--color-white);
-    background-color: var(--color-primary-brand);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-    background-color: var(--color-primary-brand);
-    cursor: pointer;
-}
-
-.modal-btn:active {
-    background-color: var(--color-btn-bgrnd-active);
-}
 
 .portfolio-btn {
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
     color: var(--color-primary-brand);
     background-color: var(--color-light);
     border-color: var(--color-accent);
@@ -58,28 +42,6 @@ color: var(--color-dark);
 .portfolio-btn:focus {
 color: var(--color-white);
 background-color: var(--color-primary-brand);
-}
-
-.menu-link {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1, 5;
-    letter-spacing: 2%;
-}
-
-.menu-link:hover,
-.menu-link:focus,
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: var(--color-text);
-}
-
-.menu-link:active,
-.contact-mail:active,
-.contact-phone-number:active {
-    color: var(--color-primary-brand);
 }
 
 .visually-hidden {
@@ -96,24 +58,24 @@ background-color: var(--color-primary-brand);
 }
 
 .section-title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1, 11;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.2px;
 }
 
 .section-subtitle {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
-    line-height: 1, 2;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
 }
 
 .section-paragraph {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1, 5;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
     color: var(--color-text);
 }
 
@@ -126,10 +88,10 @@ background-color: var(--color-primary-brand);
 /* ================== Header ================== */
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1, 33;
-    letter-spacing: 3%;
+    line-height: 1.33;
+    letter-spacing: 0.3px ;
     text-transform: uppercase;
     color: var(--color-primary-brand);
 }
@@ -142,24 +104,64 @@ background-color: var(--color-primary-brand);
     color: var(--color-light);
 }
 
+.menu-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: var(--color-text);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-phone-number:hover,
+.contact-phone-number:focus,
+.menu-link:active,
+.contact-mail:active,
+.contact-phone-number:active {
+    color: var(--color-primary-brand);
+}
+
 .contact-mail,
 .contact-phone-number {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1, 5;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
     color: var(--color-text);
 }
 /* ================== /Header ================== */
 
 /* ==============< !--Hero-->================= */
-.hero-title {
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 1, 07;
-    letter-spacing: 2%;
-    color: var(--color-white);
+.hero {
     background-color: var(--color-dark);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.2px;
+    color: var(--color-white);
+    }
+
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.4px;
+    color: var(--color-white);
+    background-color: var(--color-primary-brand);
+        }
+    
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active {
+    background-color: var(--color-btn-bgrnd-active);
+    cursor: pointer;
 }
 /* ==============< /!--Hero-->================= */
 
@@ -168,8 +170,8 @@ background-color: var(--color-primary-brand);
 .footer-paragraph {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1, 5;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
     color: var(--color-accent);
 }
 
