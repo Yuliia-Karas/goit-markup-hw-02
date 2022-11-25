@@ -1,12 +1,183 @@
+:root {
+    --color-primary-brand: #4D5AE5;
+    --color-dark: #2E2F42;
+    --color-success: #31D0AA;
+    --color-text: #434455;
+    --color-subtle-text: #8E8F99;
+    --color-accent: #E7E9FC;
+    --color-light: #F4F4FD;
+    --color-white: #FFFFFF;
+    --color-btn-bgrnd-active: #404BBF;
+}
 
-/*#region */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 body {
-    font-size: large;
-    background-color: aqua;
+font-family: 'Roboto', sans-serif;
+color: var(--color-dark);
 }
 
-.nav {
-    background-color: black;
+/* ============== Components ================= */
+.modal-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1, 19;
+    letter-spacing: 4%;
+    color: var(--color-white);
+    background-color: var(--color-primary-brand);
 }
 
-/*#endregion*/
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--color-primary-brand);
+    cursor: pointer;
+}
+
+.modal-btn:active {
+    background-color: var(--color-btn-bgrnd-active);
+}
+
+.portfolio-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 4%;
+    color: var(--color-primary-brand);
+    background-color: var(--color-light);
+    border-color: var(--color-accent);
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+color: var(--color-white);
+background-color: var(--color-primary-brand);
+}
+
+.menu-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 2%;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--color-text);
+}
+
+.menu-link:active,
+.contact-mail:active,
+.contact-phone-number:active {
+    color: var(--color-primary-brand);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1, 11;
+    letter-spacing: 2%;
+}
+
+.section-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1, 2;
+    letter-spacing: 2%;
+}
+
+.section-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 2%;
+    color: var(--color-text);
+}
+
+.card-color {
+    color: var(--color-dark);
+}
+/* ============== /Components ================= */
+
+
+/* ================== Header ================== */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1, 33;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var(--color-primary-brand);
+}
+
+.logo-dark {
+    color: var(--color-dark);
+}
+
+.logo-light {
+    color: var(--color-light);
+}
+
+.contact-mail,
+.contact-phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 2%;
+    color: var(--color-text);
+}
+/* ================== /Header ================== */
+
+/* ==============< !--Hero-->================= */
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1, 07;
+    letter-spacing: 2%;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+}
+/* ==============< /!--Hero-->================= */
+
+
+/* ==================  Footer ================== */
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 2%;
+    color: var(--color-accent);
+}
+
+.footer-color {
+    background-color: var(--color-dark);
+}
+/* ================== /Footer ================== */
+
+
+
+
