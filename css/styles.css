@@ -31,7 +31,7 @@ background-color: var(--color-white);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.04em;
     color: var(--color-primary-brand);
     background-color: var(--color-light);
     border-color: var(--color-accent);
