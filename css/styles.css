@@ -25,7 +25,7 @@ background-color: var(--color-white);
 }
 
 /* ============== Components ================= */
-
+/*#region */
 .portfolio-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -61,21 +61,21 @@ background-color: var(--color-primary-brand);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
 }
 
 .section-subtitle {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
 }
 
 .section-paragraph {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
     color: var(--color-text);
 }
 
@@ -83,15 +83,16 @@ background-color: var(--color-primary-brand);
     color: var(--color-dark);
 }
 /* ============== /Components ================= */
-
+/*#endregion*/
 
 /* ================== Header ================== */
+/*#region */
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    letter-spacing: 0.3px ;
+    letter-spacing: 0.03em ;
     text-transform: uppercase;
     color: var(--color-primary-brand);
 }
@@ -108,7 +109,7 @@ background-color: var(--color-primary-brand);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
     color: var(--color-text);
 }
 
@@ -129,12 +130,14 @@ background-color: var(--color-primary-brand);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
     color: var(--color-text);
 }
 /* ================== /Header ================== */
+/*#endregion*/
 
 /* ==============< !--Hero-->================= */
+/*#region */
 .hero {
     background-color: var(--color-dark);
 }
@@ -143,7 +146,7 @@ background-color: var(--color-primary-brand);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
     color: var(--color-white);
     }
 
@@ -152,7 +155,7 @@ background-color: var(--color-primary-brand);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.04em;
     color: var(--color-white);
     background-color: var(--color-primary-brand);
         }
@@ -164,14 +167,24 @@ background-color: var(--color-primary-brand);
     cursor: pointer;
 }
 /* ==============< /!--Hero-->================= */
+/*#endregion*/
 
+/* ==================  Our Team ================== */
+.team {
+    background-color: var(--color-light);
+}
+
+.team-item {
+    background-color: var(--color-white);
+}
+
+/* =================  / Our Team ================== */
 
 /* ==================  Footer ================== */
 .footer-paragraph {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.02em;
     color: var(--color-accent);
 }
 
